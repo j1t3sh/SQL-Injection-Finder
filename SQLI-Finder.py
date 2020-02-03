@@ -16,8 +16,8 @@ query = dork + " " +  extension
 pause_random = int(random.randrange(3, 10, 1))
 for j in search(query, num=10,start=page_no*10,stop=total_output, pause=pause_random): 
     website_list.append(j) 
-print(website_list)
-'''for i in website_list:
+
+for i in website_list:
         try:
             fullurl = i
 
@@ -32,4 +32,3 @@ print(website_list)
         except:
             print(i + "  ===> " + colored(" Cannot be Determined",'blue'))
             continue
-'''
