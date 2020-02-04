@@ -25,7 +25,7 @@ banner = ("""
 
                                         ###################################
 
-                                             Developer - Jitesh Kumar
+                                             Developed by Jitesh Kumar
                                     Intagram  - https://instagram.com/jitesh.haxx
                                        linkedin  - https://linkedin.com/j1t3sh
                                           Github - https://github.com/j1t3sh
@@ -44,7 +44,7 @@ total_output = int(input(colored("Pleases specify the total no. of websites you 
 page_no = int(input(colored("From which Google page you want to start(eg- 1,2,3) ----> ",'cyan')))
 query = dork + " " +  extension 
 pause_random = int(random.randrange(3, 10, 1))
-for j in search(query, num=10,start=page_no*10,stop=total_output, pause=pause_random): 
+for j in search(query, num=10,start=page_no*5,stop=total_output, pause=pause_random): 
     website_list.append(j) 
 
 for i in website_list:
