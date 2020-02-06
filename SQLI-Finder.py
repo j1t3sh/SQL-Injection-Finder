@@ -13,28 +13,24 @@ os. system('clear')
 
 banner = ("""
                     
+              ╔═╗╔═╗ ╦  ╦   ╔═╗╦╔╗╔╔╦╗╔═╗╦═╗
+              ╚═╗║═╬╗║  ║───╠╣ ║║║║ ║║║╣ ╠╦╝
+              ╚═╝╚═╝╚╩═╝╩   ╚  ╩╝╚╝═╩╝╚═╝╩╚═                          
+                        Made with ❤️ 
+            For the Community, By the Community   
 
-                    ███████╗ ██████╗ ██╗     ██╗      ███████╗██╗███╗   ██╗██████╗ ███████╗██████╗ 
-                    ██╔════╝██╔═══██╗██║     ██║      ██╔════╝██║████╗  ██║██╔══██╗██╔════╝██╔══██╗
-                    ███████╗██║   ██║██║     ██║█████╗█████╗  ██║██╔██╗ ██║██║  ██║█████╗  ██████╔╝
-                    ╚════██║██║▄▄ ██║██║     ██║╚════╝██╔══╝  ██║██║╚██╗██║██║  ██║██╔══╝  ██╔══██╗
-                    ███████║╚██████╔╝███████╗██║      ██║     ██║██║ ╚████║██████╔╝███████╗██║  ██║
-                    ╚══════╝ ╚══▀▀═╝ ╚══════╝╚═╝      ╚═╝     ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝
-                                                   Made with ❤️ 
-                                        For the Community, By the Community   
+            ###################################
 
-                                        ###################################
-
-                                             Developed by Jitesh Kumar
-                                    Intagram  - https://instagram.com/jitesh.haxx
-                                       linkedin  - https://linkedin.com/j1t3sh
-                                          Github - https://github.com/j1t3sh
-                                
-                                ( DONT COPY THE CODE. CONTRIBUTIONS ARE MOST WELCOME ❤️ )
-                                                                               
+                  Developed by Jitesh Kumar
+            Intagram  - https://instagram.com/jitesh.haxx
+            linkedin  - https://linkedin.com/j1t3sh
+                Github - https://github.com/j1t3sh
+                                    
+       ( DONT COPY THE CODE. CONTRIBUTIONS ARE MOST WELCOME ❤️ )
+                                                                                
 """)
 banner_terminal = terminal_banner.Banner(banner)
-print (colored(banner_terminal, 'red')+ "\n")
+print (colored(banner_terminal, 'green')+ "\n")
 
 website_list=[]
 dork = "inurl:" + input(colored("Please input the sqli Dork(eg- php?id=, aspx?id=) ---->  ",'cyan'))
