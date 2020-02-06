@@ -1,8 +1,6 @@
 #/usr/bin/python3
 from googlesearch import search
 import sys
-import urllib
-import urllib.request
 from termcolor import colored
 import terminal_banner
 import random
