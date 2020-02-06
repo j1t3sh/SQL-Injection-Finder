@@ -60,4 +60,4 @@ try:
                 continue
 except:
     print("Your Ip has been blocked by Google, Wait for 1 hr. ")
-    print("Go chill outside and then Start hunting again :)")
+    print("Go chill outside then comeback & Start hunt again :)")
