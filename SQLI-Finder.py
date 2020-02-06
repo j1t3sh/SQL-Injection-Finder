@@ -2,6 +2,8 @@
 from googlesearch import search
 import sys
 from termcolor import colored
+import urllib
+import urllib.request
 import terminal_banner
 import random
 import os
