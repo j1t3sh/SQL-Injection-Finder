@@ -1,5 +1,8 @@
-# SQL-Injection-Finder
-A simple tool to find sql injection vulnerability using google dorks.
+<h1 align="center">SQL-Injection-Finder</h1>
+<p align="center">A simple tool to find sql injection vulnerability using google dorks.</p><br>
+<div align="center">
+<img src="https://forthebadge.com/images/badges/made-with-python.svg" >
+</div>
 
 ## Installation
 ```bash
