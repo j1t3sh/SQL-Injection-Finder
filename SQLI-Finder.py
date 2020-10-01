@@ -56,8 +56,8 @@ try:
                     print (i + " ===> " + colored(" Not Vulnerable!",'red'))
                     
             except:
-                print(i + "  ===> " + colored(" Cannot be Determined",'blue'))
+                print(i + "  ===> " + colored(" Can not be Determined",'blue'))
                 continue
 except:
     print("Your Ip has been blocked by Google, Wait for 1 hr. ")
-    print("Go chill outside then comeback & Start hunt again :)")
+    print("Go chill outside then comeback & Start to hunt again :)")
