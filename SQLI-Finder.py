@@ -23,7 +23,7 @@ banner = ("""
 
                   Developed by Jitesh Kumar
             Intagram  - https://instagram.com/jitesh.haxx
-            linkedin  - https://linkedin.com/j1t3sh
+            linkedin  - https://linkedin.com/j1t3sh 
                 Github - https://github.com/j1t3sh
                                     
        ( DONT COPY THE CODE. CONTRIBUTIONS ARE MOST WELCOME ❤️ )
@@ -32,7 +32,7 @@ banner = ("""
 banner_terminal = terminal_banner.Banner(banner)
 print (colored(banner_terminal, 'green')+ "\n")
 
-website_list=[]
+website_list=[] #list of websites
 dork = "inurl:" + input(colored("Please input the sqli Dork(eg- php?id=, aspx?id=) ---->  ",'cyan'))
 extension = "site:" + input(colored("Please specify the website extension(eg- .in,.com,.pk) -----> ",'cyan'))
 total_output = int(input(colored("Pleases specify the total no. of websites you want) ----> ",'cyan')))
@@ -51,9 +51,9 @@ try:
                 body = resp.read()
                 fullbody = body.decode('utf-8')
                 if "SQL syntax" in fullbody:  
-                    print(i + " ===> " +  colored(" Vulnerable!",'green'))
+                    print(i + " ===> " +  colored(" Vulnerable!",'green')) #if vulnerable
                 else:
-                    print (i + " ===> " + colored(" Not Vulnerable!",'red'))
+                    print (i + " ===> " + colored(" Not Vulnerable!",'red')) #if not vulnerable
                     
             except:
                 print(i + "  ===> " + colored(" Can not be Determined",'blue'))
