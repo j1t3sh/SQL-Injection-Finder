@@ -69,5 +69,5 @@ try:
                 continue
 except:
 
-    print("Your Ip has been blocked by Google, Wait for 1 hr. ")
-    print("Go chill outside then comeback & Start to hunt again :)")
+    print("Your IP has been blocked by Google, Wait for 1 hr. ")
+    print("Go chill outside then comeback & start to hunt again :)")
